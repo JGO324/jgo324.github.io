@@ -1,0 +1,49 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  /* apply custom rules to the body here */
+  font-family: Lato;
+}
+
+header {
+  background-image: url("../images/willemstad-at-night.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 154px 0 100px;
+  /* background-color: #448ee4; */
+}
+
+.headimgsource
+{
+  position: absolute;
+  margin: 80px 0 0 5px;
+  font-size: 0.8em;
+}
+
+.headimgsource:hover
+{
+  color: whitesmoke;
+}
+
+a{
+  color: orange;
+}
+
+/* media query when the media is wider than 992px */
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 80px 0;
+}
